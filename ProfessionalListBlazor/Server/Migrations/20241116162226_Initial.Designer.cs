@@ -11,7 +11,7 @@ using ProfessionalListBlazor.Server.Data;
 namespace ProfessionalListBlazor.Server.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230628211135_Initial")]
+    [Migration("20241116162226_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -52,15 +52,15 @@ namespace ProfessionalListBlazor.Server.Migrations
                         new
                         {
                             Id = 1,
-                            Name = "Janne",
-                            Position = "Senior",
+                            Name = "Marisa Aparecida - Enfermeira",
+                            Position = "(11)974836354 / Penha-Zona Leste, São Paulo",
                             StyleId = 1
                         },
                         new
                         {
                             Id = 2,
-                            Name = "John",
-                            Position = "Treinee",
+                            Name = "João Carlos - Psicólogo",
+                            Position = "(11)937264738 / Tucuruvi - Zona Norte, São Paulo",
                             StyleId = 2
                         });
                 });
@@ -85,12 +85,12 @@ namespace ProfessionalListBlazor.Server.Migrations
                         new
                         {
                             Id = 1,
-                            Name = "Home Office"
+                            Name = "Sim"
                         },
                         new
                         {
                             Id = 2,
-                            Name = "Company"
+                            Name = "Não"
                         });
                 });
 

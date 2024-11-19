@@ -45,22 +45,22 @@ namespace ProfessionalListBlazor.Server.Migrations
             migrationBuilder.InsertData(
                 table: "Styles",
                 columns: new[] { "Id", "Name" },
-                values: new object[] { 1, "Home Office" });
+                values: new object[] { 1, "Sim" });
 
             migrationBuilder.InsertData(
                 table: "Styles",
                 columns: new[] { "Id", "Name" },
-                values: new object[] { 2, "Company" });
+                values: new object[] { 2, "Não" });
 
             migrationBuilder.InsertData(
                 table: "ProfessionalLists",
                 columns: new[] { "Id", "Name", "Position", "StyleId" },
-                values: new object[] { 1, "Janne", "Senior", 1 });
+                values: new object[] { 1, "Marisa Aparecida - Enfermeira", "(11)974836354 / Penha-Zona Leste, São Paulo", 1 });
 
             migrationBuilder.InsertData(
                 table: "ProfessionalLists",
                 columns: new[] { "Id", "Name", "Position", "StyleId" },
-                values: new object[] { 2, "John", "Treinee", 2 });
+                values: new object[] { 2, "João Carlos - Psicólogo", "(11)937264738 / Tucuruvi - Zona Norte, São Paulo", 2 });
 
             migrationBuilder.CreateIndex(
                 name: "IX_ProfessionalLists_StyleId",
